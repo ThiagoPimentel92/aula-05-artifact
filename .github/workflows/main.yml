@@ -58,7 +58,7 @@ jobs:
 
   download-only-windows:
     runs-on: windows-latest
-    needs: build-go  # Dependência do build-go
+    needs: build-go  
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
