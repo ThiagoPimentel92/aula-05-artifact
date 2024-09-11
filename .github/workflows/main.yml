@@ -50,6 +50,8 @@ jobs:
     - name: Download Linux artifact
       uses: actions/download-artifact@v4
       with:
+        name: linux
+        
       - name: List files in current directory
         run: ls -la
 
